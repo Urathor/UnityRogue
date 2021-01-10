@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb1b6a30d146894bbcd729b557734a9, type: 3}
+  m_Name: MonsterDatabase
+  m_EditorClassIdentifier: 
+  DataList:
+  - Icon: {fileID: -4311853366524063390, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Bat
+    Level: 1
+    MaxHealth: 1D4
+    Attacks: 1
+    HitBonus: 0
+    Damage: 1D2
+    Defense: 8D1
+    DamageBonus: 0
+    Speed: 10
+    Awareness: 2D3
+    GoldDrop: 1D4
+    ExpValue: 1D4
+    Color: {r: 0.7607844, g: 0.5058824, b: 0.20784315, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 0
+    Drops: []
+  - Icon: {fileID: 7883622050540578455, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Centaur
+    Level: 4
+    MaxHealth: 4D8
+    Attacks: 2
+    HitBonus: 0
+    Damage: 1D6
+    Defense: 7D1
+    DamageBonus: 0
+    Speed: 10
+    Awareness: 2D2
+    GoldDrop: 1D8
+    ExpValue: 5D5
+    Color: {r: 0.8078432, g: 0.57254905, b: 0.22352943, a: 1}
+    CanFlee: 0
+    Stationary: 0
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 15
+    Drops:
+    - IdentifiedItemName: Simple Claymore
+      Type: 1
+      Weight: 8
+    - IdentifiedItemName: Minor Heal Potion
+      Type: 2
+      Weight: 5
+    - IdentifiedItemName: Plain Platemail
+      Type: 1
+      Weight: 4
+  - Icon: {fileID: -7374828033705319871, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Emu
+    Level: 1
+    MaxHealth: 1D6
+    Attacks: 1
+    HitBonus: 0
+    Damage: 1D2
+    Defense: 1D4
+    DamageBonus: 0
+    Speed: 12
+    Awareness: 2D2
+    GoldDrop: 1D4
+    ExpValue: 1D4
+    Color: {r: 0.6886792, g: 0.22955973, b: 0.1721698, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 0
+    Drops: []
+  - Icon: {fileID: 6814672482865300652, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Fly-Trap
+    Level: 8
+    MaxHealth: 8D8
+    Attacks: 3
+    HitBonus: 0
+    Damage: 1D6
+    Defense: 1D6
+    DamageBonus: 0
+    Speed: 14
+    Awareness: 2D2
+    GoldDrop: 1D4
+    ExpValue: 8D10
+    Color: {r: 0.14754717, g: 0.6415094, b: 0, a: 1}
+    CanFlee: 0
+    Stationary: 1
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 0
+    Drops: []
+  - Icon: {fileID: -73837507951006688, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Hob Gobbo
+    Level: 1
+    MaxHealth: 2D4
+    Attacks: 1
+    HitBonus: 0
+    Damage: 1D8
+    Defense: 4D2
+    DamageBonus: 0
+    Speed: 14
+    Awareness: 2D2
+    GoldDrop: 1D4
+    ExpValue: 1D4
+    Color: {r: 0.12075471, g: 0.5283019, b: 0, a: 1}
+    CanFlee: 0
+    Stationary: 0
+    CanOpenDoors: 1
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 0
+    Drops: []
+  - Icon: {fileID: 125896366429494275, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Jabberwok
+    Level: 15
+    MaxHealth: 15D8
+    Attacks: 1
+    HitBonus: 0
+    Damage: 3d4
+    Defense: 3d2
+    DamageBonus: 0
+    Speed: 12
+    Awareness: 2D2
+    GoldDrop: 10D8
+    ExpValue: 20D100
+    Color: {r: 0.8078432, g: 0.57254905, b: 0.22352943, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 70
+    Drops:
+    - IdentifiedItemName: Swamp Water
+      Type: 2
+      Weight: 10
+    - IdentifiedItemName: Minor Heal Potion
+      Type: 2
+      Weight: 11
+    - IdentifiedItemName: Simple Longsword
+      Type: 1
+      Weight: 12
+    - IdentifiedItemName: Plain Platemail
+      Type: 1
+      Weight: 8
+  - Icon: {fileID: -8381118642843558658, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Koball
+    Level: 1
+    MaxHealth: 2D4
+    Attacks: 2
+    HitBonus: 0
+    Damage: 1D6
+    Defense: 1D4
+    DamageBonus: 0
+    Speed: 14
+    Awareness: 2D2
+    GoldDrop: 1D6
+    ExpValue: 1d12
+    Color: {r: 0.64705884, g: 0.3647059, b: 0.0627451, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 1
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 10
+    Drops:
+    - IdentifiedItemName: Minor Heal Potion
+      Type: 2
+      Weight: 50
+    - IdentifiedItemName: Swamp Water
+      Type: 2
+      Weight: 25
+  - Icon: {fileID: 2720132938388287064, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Krow
+    Level: 1
+    MaxHealth: 1D8
+    Attacks: 1
+    HitBonus: 0
+    Damage: 1D4
+    Defense: 2D4
+    DamageBonus: 0
+    Speed: 12
+    Awareness: 2D2
+    GoldDrop: 1D4
+    ExpValue: 1D4
+    Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 0
+    Drops: []
+  - Icon: {fileID: 8292589678243836191, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Quagga
+    Level: 2
+    MaxHealth: 3D8
+    Attacks: 1
+    HitBonus: 0
+    Damage: 2D5
+    Defense: 1D8
+    DamageBonus: 0
+    Speed: 10
+    Awareness: 2D2
+    GoldDrop: 1d6
+    ExpValue: 5D6
+    Color: {r: 0.8078432, g: 0.57254905, b: 0.22352943, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 30
+    Drops:
+    - IdentifiedItemName: Molded Cheese
+      Type: 2
+      Weight: 30
+    - IdentifiedItemName: Simple Bread
+      Type: 2
+      Weight: 25
+    - IdentifiedItemName: Minor Heal Potion
+      Type: 2
+      Weight: 10
+  - Icon: {fileID: -2589937114759871019, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Snek
+    Level: 1
+    MaxHealth: 1D8
+    Attacks: 1
+    HitBonus: 0
+    Damage: 1D3
+    Defense: 3D3
+    DamageBonus: 0
+    Speed: 10
+    Awareness: 1D3
+    GoldDrop: 1D4
+    ExpValue: 1D4
+    Color: {r: 0.12722372, g: 0.5566038, b: 0, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 0
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 0
+    Drops: []
+  - Icon: {fileID: -6087106118976108502, guid: ed0bf233ba9af9348934abf6f2470ef6, type: 3}
+    Name: Yeti
+    Level: 3
+    MaxHealth: 4D8
+    Attacks: 2
+    HitBonus: 0
+    Damage: 1D6
+    Defense: 5D2
+    DamageBonus: 0
+    Speed: 14
+    Awareness: 2D2
+    GoldDrop: 3D8
+    ExpValue: 10D5
+    Color: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    CanFlee: 1
+    Stationary: 0
+    CanOpenDoors: 1
+    SpecialAttack: {fileID: 0}
+    ChanceForLoot: 30
+    Drops:
+    - IdentifiedItemName: Minor Heal Potion
+      Type: 2
+      Weight: 13
+    - IdentifiedItemName: Simple Bread
+      Type: 2
+      Weight: 10
+    - IdentifiedItemName: Plain Platemail
+      Type: 1
+      Weight: 9
+    - IdentifiedItemName: Simple Claymore
+      Type: 1
+      Weight: 11

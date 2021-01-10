@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4adf9e78202c44d8f34d8aa6c1dabd, type: 3}
+  m_Name: ConsumableDatabase
+  m_EditorClassIdentifier: 
+  DataList:
+  - Type: 2
+    ItemName: Bread
+    IdentifiedName: Simple Bread
+    Description: A loaf of hard possibly stale bread.
+    GoldValue: 1
+    ItemIcon: {fileID: -5640444394710302033, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 1
+    AppliedCondition: {fileID: 11400000, guid: bea67f3a0f07d284aaee0b5c9ba07feb, type: 2}
+    ImediateEffect: 0
+  - Type: 2
+    ItemName: Cheese
+    IdentifiedName: Fine Aged Cheese
+    Description: This cheese has a crisp aroma and looks delcious.
+    GoldValue: 5
+    ItemIcon: {fileID: 2054812835847546047, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 1
+    AppliedCondition: {fileID: 11400000, guid: a056fe9fa5c2c1b4e9273f8662304427, type: 2}
+    ImediateEffect: 0
+  - Type: 2
+    ItemName: Cheese
+    IdentifiedName: Molded Cheese
+    Description: This cheese smells a bit odd.
+    GoldValue: 0
+    ItemIcon: {fileID: -6862344656839334387, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 1
+    AppliedCondition: {fileID: 11400000, guid: 64af4c3345a6631489f778d6daacca50, type: 2}
+    ImediateEffect: 0
+  - Type: 2
+    ItemName: Murky Potion
+    IdentifiedName: Swamp Water
+    Description: This thick murky potion smells odd.
+    GoldValue: 10
+    ItemIcon: {fileID: 4847992928803933185, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 1
+    AppliedCondition: {fileID: 11400000, guid: 0f6d6127a5455d64db051c21d95e25e9, type: 2}
+    ImediateEffect: 0
+  - Type: 2
+    ItemName: Yellow Potion
+    IdentifiedName: Minor Heal Potion
+    Description: This potion shimmers yellow and smells sweetly.
+    GoldValue: 25
+    ItemIcon: {fileID: -8223917577686469602, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 1
+    AppliedCondition: {fileID: 11400000, guid: 95365ee5eab8b7047a971ac6f8449772, type: 2}
+    ImediateEffect: 0

@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775522a3f3f0c9e4187282665a85b00d, type: 3}
+  m_Name: EquipmentDatabase
+  m_EditorClassIdentifier: 
+  DataList:
+  - Type: 1
+    ItemName: Dagger
+    IdentifiedName: Simple Dagger
+    Description: A steel dagger. Ouch it's sharp.
+    GoldValue: 2
+    ItemIcon: {fileID: -8365206549631922067, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 0
+    m_statMods:
+    - name: DaggerBaseDamage
+      ModifiedStat: {fileID: 11400000, guid: 24a93c5b1b212024797eab843314041c, type: 2}
+      Value: 3
+      Type: 100
+      Source: Dagger
+    statIndex: 07000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Leather Armor
+    IdentifiedName: Plain Leather Armor
+    Description: This tunic is made of tanned leather.
+    GoldValue: 2
+    ItemIcon: {fileID: -7712740245334791707, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 1
+    m_statMods:
+    - name: LeatherBaseArmor
+      ModifiedStat: {fileID: 11400000, guid: 46e506028119c674f905325276fa64af, type: 2}
+      Value: 2
+      Type: 100
+      Source: Leather Armor
+    statIndex: 08000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Longsword
+    IdentifiedName: Simple Longsword
+    Description: A longsword made of steel.
+    GoldValue: 8
+    ItemIcon: {fileID: -5081219016769363800, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 0
+    m_statMods:
+    - name: SwordBaseDamage
+      ModifiedStat: {fileID: 11400000, guid: 24a93c5b1b212024797eab843314041c, type: 2}
+      Value: 6
+      Type: 100
+      Source: Longsword
+    statIndex: 0e000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Mace
+    IdentifiedName: Simple Mace
+    Description: A blunt weapon with a solid metal head.
+    GoldValue: 4
+    ItemIcon: {fileID: 3935412946164149738, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 0
+    m_statMods:
+    - name: MaceBaseDamage
+      ModifiedStat: {fileID: 11400000, guid: 24a93c5b1b212024797eab843314041c, type: 2}
+      Value: 5
+      Type: 100
+      Source: Mace
+    statIndex: 09000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Platemail
+    IdentifiedName: Plain Platemail
+    Description: A suit of heavy platemail armor.
+    GoldValue: 64
+    ItemIcon: {fileID: -1987011824974027122, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 1
+    m_statMods:
+    - name: PlatemailBaseArmor
+      ModifiedStat: {fileID: 11400000, guid: 46e506028119c674f905325276fa64af, type: 2}
+      Value: 6
+      Type: 100
+      Source: Platemail
+    - name: -2 Speed
+      ModifiedStat: {fileID: 11400000, guid: 1505080aaf8217e4383d6bce169b85f8, type: 2}
+      Value: -2
+      Type: 100
+      Source: Platemail
+    statIndex: 0a000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Quarterstaff
+    IdentifiedName: Simple Quarterstaff
+    Description: A long oaken staff.
+    GoldValue: 1
+    ItemIcon: {fileID: -9054584810839771285, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 0
+    m_statMods:
+    - name: BaseStaffDamage
+      ModifiedStat: {fileID: 11400000, guid: 24a93c5b1b212024797eab843314041c, type: 2}
+      Value: 4
+      Type: 100
+      Source: Quarterstaff
+    statIndex: 05000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Ringmail
+    IdentifiedName: Plain Ringmail
+    Description: A shirt of interlocking rings made of steel.
+    GoldValue: 32
+    ItemIcon: {fileID: -9027441186571018412, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 1
+    m_statMods:
+    - name: RingmailBaseArmor
+      ModifiedStat: {fileID: 11400000, guid: 46e506028119c674f905325276fa64af, type: 2}
+      Value: 5
+      Type: 100
+      Source: Ringmail
+    statIndex: 0b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Shirt
+    IdentifiedName: Plain Shirt
+    Description: A shirt made of soft fabric.
+    GoldValue: 1
+    ItemIcon: {fileID: 2875882332187528346, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 1
+    m_statMods:
+    - name: ClothBaseArmor
+      ModifiedStat: {fileID: 11400000, guid: 46e506028119c674f905325276fa64af, type: 2}
+      Value: 1
+      Type: 100
+      Source: Shirt
+    statIndex: 06000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Splintmail
+    IdentifiedName: Plain Splintmail
+    Description: This is a stunic of leather armor with banded metal strips.
+    GoldValue: 8
+    ItemIcon: {fileID: -6166395106397571498, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 1
+    m_statMods:
+    - name: SplintMailBaseArmor
+      ModifiedStat: {fileID: 11400000, guid: 46e506028119c674f905325276fa64af, type: 2}
+      Value: 4
+      Type: 100
+      Source: Splintmail
+    statIndex: 0c000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Studded Leather
+    IdentifiedName: Plain Studded Leather Armor
+    Description: This is a soft leather tunic with metal studs sewn in.
+    GoldValue: 4
+    ItemIcon: {fileID: -6649075084127173891, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 1
+    m_statMods:
+    - name: StuddedLeatherBaseArmor
+      ModifiedStat: {fileID: 11400000, guid: 46e506028119c674f905325276fa64af, type: 2}
+      Value: 3
+      Type: 100
+      Source: Studded Leather
+    statIndex: 0a000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Type: 1
+    ItemName: Two-Handed Sword
+    IdentifiedName: Simple Claymore
+    Description: This is a huge sword that would require two hands to weild.
+    GoldValue: 16
+    ItemIcon: {fileID: -2288968059878610988, guid: d8fd0468bdb2afb42a6856dcefa2403e,
+      type: 3}
+    IsIdentified: 0
+    Stackable: 0
+    EquipmentType: 0
+    m_statMods:
+    - name: TwoHandBaseDamage
+      ModifiedStat: {fileID: 11400000, guid: 24a93c5b1b212024797eab843314041c, type: 2}
+      Value: 10
+      Type: 100
+      Source: Two-Handed Sword
+    - name: -2 Speed
+      ModifiedStat: {fileID: 11400000, guid: 1505080aaf8217e4383d6bce169b85f8, type: 2}
+      Value: -2
+      Type: 100
+      Source: Two-Handed Sword
+    statIndex: 0f000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
